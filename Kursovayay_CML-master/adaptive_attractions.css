@@ -1,0 +1,104 @@
+@media (max-width:480px){
+    .class1{
+        margin-top:25px;
+        grid-template-rows: 5vh 25vh;
+    }
+    .class1_caption{
+        font-size:15px;
+        -webkit-text-stroke:0.15px #D9EFFF;
+    }
+    .class1_text{
+        margin-top: 15px;
+        font-size: 8px;
+        font-family: "inter-regular";
+    }
+    .class2{
+        margin-top:25px;
+        grid-template-rows: 1vh 30vh 30vh;
+    }
+    .class2_caption{
+        font-size: 15px;
+        -webkit-text-stroke:0.15px #D9EFFF;
+    }
+    .class2_photo{
+        margin-top: 5px;
+        grid-column:2/-2;
+    }
+    .class2_text{
+        margin-top: 5px;
+        font-size: 8px;
+        grid-row:3/4;
+        grid-column:2/-2;
+    }
+    .class3_photo1{
+        margin-top: 5px;
+    }
+    .class3_text1{
+        margin-top:15px;
+        font-size:8px;
+        grid-column:7/-2;
+    }
+    .class3_photo2{
+        margin-top:5px;
+    }
+    .class3_text2{
+        margin-top: 15px;
+        font-size: 8px;
+        grid-column:2/7;
+    }
+    .class3{
+        margin-top:25px;
+        grid-template-rows: 1vh 30vh 30vh;
+    }
+    .class4{
+        margin-top:25px;
+        grid-template-rows: 1vh 30vh 30vh;
+    }
+    .class4_text{
+        margin-top: 15px;
+        font-size: 8px;
+        grid-column:2/-2;
+    }
+    .slider{
+        margin-top: 15px;
+    }
+    .class5{
+        margin-top:15px;
+        grid-template-rows: auto 25vh 50vh;
+    }
+    .class5_photo1{
+        margin-top: 5px;
+    }   
+    .class5_photo2{
+        margin-top: 5px;
+    }
+    .class5_text{
+        font-size: 8px;
+        margin-top: 10px;
+        grid-column:2/-2;
+    }
+    header img{
+        width:30px;
+        height: 30px;
+        border-radius: 8px;
+    }
+    .footer img{
+        border-radius: 8px;
+        width:50px;
+        height: 50px;
+    }
+    footer div{
+        grid-column-start:8
+    }
+    .footer1{
+       
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .footer2{
+        font-size:15px;
+    }
+    header>div>a{
+        font-size: 10px;
+    }
+}
